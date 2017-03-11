@@ -1,4 +1,5 @@
 FROM airdock/oracle-jdk:jdk-7u80
+LABEL maintainer Jerome Guibert <jguibert@gmail.com>
 
 ENV CATALINA_HOME=/srv/java/tomcat \
     PATH=/srv/java/bin:${PATH} \
